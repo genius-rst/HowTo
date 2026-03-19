@@ -48,10 +48,7 @@ Apache Guacamole — это клиент удалённого доступа, к
           MYSQL_USER: guacamole_user
           MYSQL_PASSWORD: some_password
         volumes:
-          - mysql_data:/var/lib/mysql
-    
-    volumes:
-      mysql_data:
+          - ./mysql_data:/var/lib/mysql
     
     ```
     
